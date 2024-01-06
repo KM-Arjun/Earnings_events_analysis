@@ -8,5 +8,5 @@ This documentation explains the code structure to reproduce the results of the a
 ## Data Sources and Preperation 
 The script utilizes two main data sources:
 1.	Price Data from Bloomberg: ("df_price") - This dataset includes historical stock prices. It's crucial for calculating stock returns before and after earnings announcements.
-2.	Earnings Announcement Dates from Wall Street Horizon:("df_2009_raw", "df_2014_raw", "df_2019_raw") These datasets provide the dates and times of earnings announcements for various stocks across the years 2009, 2014, and 2019.
+2.	Earnings Announcement Dates from Wall Street Horizon: ("df_2009_raw", "df_2014_raw", "df_2019_raw") - These datasets provide the dates and times of earnings announcements for various stocks across the years 2009, 2014, and 2019.
 
