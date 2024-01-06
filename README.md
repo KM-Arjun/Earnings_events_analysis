@@ -8,8 +8,8 @@ We analyze the notable price fluctuations of publicly traded U.S. stocks coincid
 This documentation explains the code structure to reproduce the results of the above Research Paper. The data used to obtain the results are not attached in this documentation. You can replace the data files with your own raw data to run the code above. 
 
 The script utilizes two main data sources:
-1.	**Price Data from Bloomberg**: `df_price` - This dataset includes historical stock prices. It's crucial for calculating stock returns before and after earnings announcements.
-2.	**Earnings Announcement Dates from Wall Street Horizon**: `df_2009_raw`, `df_2014_raw`, `df_2019_raw` - These datasets provide the dates and times of earnings announcements for various stocks across the years 2009, 2014, and 2019.
+-	**Price Data from Bloomberg**: `df_price` - This dataset includes historical stock prices. It's crucial for calculating stock returns before and after earnings announcements.
+-	**Earnings Announcement Dates from Wall Street Horizon**: `df_2009_raw`, `df_2014_raw`, `df_2019_raw` - These datasets provide the dates and times of earnings announcements for various stocks across the years 2009, 2014, and 2019.
 
 
 ## Code Structure 
@@ -21,3 +21,13 @@ The code consists of multiple components, each serving a specific purpose in the
 
 Each file contains specific functions and comments explaining the process along every step.
 
+## Package Information
+
+- python: 3.8.2
+- numpy: 1.21.5
+- pandas: 2.0.0
+- matplotlib: 3.6.2
+- R: 4.3.1
+- dplyr: 1.1.2
+- lubridate: 1.9.2
+- tidyr: 1.3.0
