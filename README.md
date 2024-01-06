@@ -13,9 +13,9 @@ The script utilizes two main data sources:
 ## Code Structure 
 The code consists of multiple components, each serving a specific purpose in the analysis:
 
-1.  Returns & impvol_calculation.R: Processes and prepares datasets, classifies earnings events, and calculates stock returns.
-2.  Python Notebook: Conducts statistical analysis and modeling of stock price movements and implied volatility.
+1.  'Returns & impvol_calculation.R' : Processes and prepares datasets, classifies earnings events, and calculates stock returns.
+2.  'Model_analysis.ipynb' : Conducts statistical analysis and modeling of stock price movements and implied volatility.
 3.  Additional Python Analysis: Focuses on market capitalization segments, analyzing large-cap, mid-cap, and small-cap stocks.
 
-Each component contains specific functions and methodologies detailed in their respective sections.
+Each file contains specific functions and comments explaining the process along every step.
 
